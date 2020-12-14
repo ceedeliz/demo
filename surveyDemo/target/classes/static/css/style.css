@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+
+body {
+	background: #f8f8f8;
+}
+
+.container {
+	
+}
+
+.form-body {
+	background: white;
+}
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn)
+	{
+	width: 100%;
+}
+
+div#date_picker {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+}
+
+.span2 {
+	width: 90%;
+}
+
+.input-append.date .add-on, .input-prepend.date .add-on {
+	cursor: pointer;
+	margin-top: 5px;
+	margin-left: 15px;
+	font-size: 20px;
+	color: gray;
+}
+
+.color-primario {
+	background: #0C231E;
+}
+
+.terminosYcondiciones a {
+	color: white;
+}
+
+.header-title, .terminosYcondiciones {
+	background: #13322B;
+	color: white;
+}
+
+.send-button {
+	background: #9d2449;
+	color: white;
+}
